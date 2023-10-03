@@ -1,0 +1,17 @@
+.bg-glass {
+  background-image: linear-gradient(
+    to right bottom,
+    #143f13,
+    #154915,
+    #155317,
+    #155d18,
+    #14681a,
+    #237325,
+    #2f7f30,
+    #3b8a3b,
+    #529951,
+    #68a767,
+    #7db67d,
+    #93c593
+  );
+}
