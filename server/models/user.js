@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate({user_wallet}) {
       this.hasMany(user_wallet, {foreignKey : "user_id"})
     }
-  } 
+  }   
   user.init({
     nama_lengkap: DataTypes.STRING,
     tanggal_lahir: DataTypes.STRING,
